@@ -1,4 +1,4 @@
-# NoteMark
+# NoteMark2
 
 A minimal Note taking app with out-of-the-box markdown support.
 
