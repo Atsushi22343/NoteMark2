@@ -1,8 +1,9 @@
 # NoteMark2
 
 A minimal Note taking app with out-of-the-box markdown support.
+This app is based on Gionatha's cool app. I am very grateful to him.
 
-![Preview](https://github.com/gionathas/NoteMark/assets/16454253/fcfff9dd-04a0-4b62-9cfb-db57ccd6f7aa)
+![Preview](https://github.com/gionathas/NoteMark2/assets/demo.png)
 
 ## Project Setup
 

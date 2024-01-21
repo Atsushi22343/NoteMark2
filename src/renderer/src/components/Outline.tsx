@@ -1,6 +1,7 @@
 import { selectedNoteAtom } from '@renderer/store';
 import { useAtomValue } from 'jotai';
 import { ComponentProps } from 'react';
+import { twMerge } from 'tailwind-merge';
 
 
 function extractHeadingsFromFile(note_content: string): string[] {
@@ -33,8 +34,8 @@ export const OutlineTitle = ({ className, ...props }: ComponentProps<'div'>) => 
   if (!selectedNote) return null
 
   return (
-    <div className='p-2'>
-        <span className="text-gray-400">Outline</span><br />
+    <div className={twMerge('flex justify-center', className)} {...props}>
+      <span className="text-gray-400">Outline</span>
     </div>
   )
 }
