@@ -6,6 +6,10 @@ This app is based on Gionatha's cool app. I am very grateful to him.
 
 <img width="1664" alt="demo" src="https://github.com/Atsushi22343/NoteMark2/assets/92620803/9b2d0363-3628-49a6-b01f-d9623a1e23cc">
 
+The items I have upgraded are as follows.
+- App icon
+- Outline display
+  - show heading texts
 
 ## Project Setup
 
