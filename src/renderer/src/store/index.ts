@@ -37,7 +37,7 @@ export const selectedNoteAtom = unwrap(
     prev ?? {
       title: '',
       content: '',
-      lastEditTime: Date.now()
+      lastEditTime: new Date(Date.now() + 540 * 60 * 1000).getTime() //jst
     }
 )
 
@@ -58,7 +58,7 @@ export const saveNoteAtom = atom(null, async (get, set, newContent: NoteContent)
       if (note.title === selectedNote.title) {
         return {
           ...note,
-          lastEditTime: Date.now()
+          lastEditTime: new Date(Date.now() + 540 * 60 * 1000).getTime() //jst
         }
       }
 
@@ -78,7 +78,7 @@ export const createEmptyNoteAtom = atom(null, async (get, set) => {
 
   const newNote: NoteInfo = {
     title,
-    lastEditTime: Date.now()
+    lastEditTime: new Date(Date.now() + 540 * 60 * 1000).getTime() //jst
   }
 
   set(notesAtom, [newNote, ...notes.filter((note) => note.title !== newNote.title)])

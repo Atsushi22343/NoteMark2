@@ -50,7 +50,7 @@ export const OutlinePreview = ({ className, ...props }: ComponentProps<'div'>) =
 
   return (
     <div className='p-2'>
-        <span className='whitespace-pre-wrap'>{headingText}</span>
+        <span className='whitespace-pre-wrap text-sm'>{headingText}</span>
     </div>
   )
 }
